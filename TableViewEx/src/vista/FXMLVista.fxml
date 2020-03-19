@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.FXMLVistaController">
+   <children>
+      <Label layoutX="64.0" layoutY="93.0" prefHeight="21.0" prefWidth="70.0" text="Nombre:" />
+      <TextField fx:id="nameLabel" layoutX="138.0" layoutY="88.0" />
+      <Label layoutX="64.0" layoutY="133.0" prefHeight="21.0" prefWidth="70.0" text="Apellidos:" />
+      <TextField fx:id="lastLabel" layoutX="138.0" layoutY="125.0" />
+      <Button layoutX="138.0" layoutY="314.0" mnemonicParsing="false" onAction="#cancelar" text="Cancelar" />
+      <Button fx:id="buttonSave" layoutX="240.0" layoutY="313.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
+      <HBox alignment="CENTER" layoutX="-1.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="50.0" prefWidth="404.0">
+         <children>
+            <Label fx:id="title" />
+         </children>
+      </HBox>
+      <Label layoutX="64.0" layoutY="179.0" text="Ciudad:" />
+      <Label layoutX="64.0" layoutY="219.0" text="Provincia:" />
+      <TextField fx:id="cityLabel" layoutX="138.0" layoutY="174.0" />
+      <TextField fx:id="provLabel" layoutX="138.0" layoutY="215.0" />
+      <Label layoutX="368.0" layoutY="83.0" text="Icono:" />
+      <Line endX="-35.0" endY="-52.0" layoutX="389.0" layoutY="141.0" startX="-35.0" startY="102.0" />
+      <CheckBox fx:id="check1" layoutX="438.0" layoutY="87.0" mnemonicParsing="false" onAction="#icono1" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="477.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../iconos/LLoroso.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="check2" layoutX="438.0" layoutY="146.0" mnemonicParsing="false" onAction="#icono2" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="477.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../iconos/Pregunta.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="check3" layoutX="438.0" layoutY="204.0" mnemonicParsing="false" onAction="#icono3" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="477.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../iconos/Sonriente.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="idLabel" layoutX="138.0" layoutY="255.0" />
+      <Label layoutX="64.0" layoutY="261.0" text="DNI:" />
+      <Label fx:id="error" layoutX="138.0" layoutY="286.0" text="Error. Solo numeros en campo DNI" textFill="RED" visible="false" />
+   </children>
+</AnchorPane>
