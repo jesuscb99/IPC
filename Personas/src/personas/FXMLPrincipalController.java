@@ -70,7 +70,7 @@ public class FXMLPrincipalController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-      nuevosDatos = new String[2];
+     
        List<Persona> misdatos = new ArrayList<>();
       
        datos = FXCollections.observableArrayList(misdatos);
@@ -97,6 +97,8 @@ public class FXMLPrincipalController implements Initializable {
     
     private void abrirVentana(Persona p) {
         FXMLLoader miCargador = new FXMLLoader(getClass().getResource("FXMLNuevo.fxml"));
+        Scene sceneActual = add.getScene();
+        
         
         try {
             AnchorPane root = (AnchorPane) miCargador.load();

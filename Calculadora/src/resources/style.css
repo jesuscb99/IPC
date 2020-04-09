@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-abr-2020, 18:46:03
+    Author     : 2jesu
+*/
+
+
+
+
+@font-face {
+    src: url("Helvetica.ttf");
+}
+
+@font-face {
+    src: url("helvetica-light-587ebe5a59211.ttf");
+}
+
+.label {
+    
+     -fx-font-family: 'Helvetica Light';
+     -fx-font-size: 50pt;
+     -fx-background-color: #1c1c1e;
+     -fx-text-fill: #f2f2f7;
+   
+
+}
+
+
+.button {
+    -fx-font-family: 'Helvetica Light';
+    -fx-text-fill: #39363d;
+    -fx-font-size: 30pt;
+    -fx-background-color: #d1d1d5;
+    -fx-background-insets: 0.5 0.5 0.5 0.5;
+   
+    -fx-background-radius: 0;
+   
+ 
+}
+
+.button-op {
+    -fx-font-family: 'Helvetica Light';
+    -fx-background-color: #ff9f09;
+    -fx-text-fill: #f2f2f7;
+    
+}
+
+.button-dalt {
+    -fx-font-size: 20pt;
+}
+
+.button-zeroesq {
+     -fx-background-insets: 0.5 0 0.5 0.5;
+     
+}
+
+.button-zerodret {
+    -fx-background-insets: 0.5 0 0.5 0;
+}
+.button-punt {
+    -fx-background-insets: 0.5 0.5 0.5 1;
+}
+.gridpane {
+    
+    -fx-background-color: #1c1c1e;
+    -fx-padding: 4;
+  
+}
+
+.button:hover {
+    -fx-background-color: #afafb1;
+
+}
+
+.button-op:hover {
+    -fx-background-color: #ff6a00;
+
+}
+
+.button:pressed {
+    -fx-background-color: #636366;
+}
+
+

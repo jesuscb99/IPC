@@ -66,6 +66,7 @@ public class FXMLMBController implements Initializable {
                 GridPane.setColumnIndex(bola, bola_X);
                 break;
         }
+        
         event.consume();
     }
     

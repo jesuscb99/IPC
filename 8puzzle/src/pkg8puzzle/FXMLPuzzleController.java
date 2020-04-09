@@ -69,7 +69,7 @@ public class FXMLPuzzleController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
        inicializarBotones();
-        inicializarCasillas();
+       inicializarCasillas();
         
     }    
 
@@ -245,7 +245,7 @@ public class FXMLPuzzleController implements Initializable {
         
         if(source instanceof Button) {
             activo = (Button) source;
-             //activo.setText("Hey! its me");
+   
 
             
         }
@@ -278,12 +278,7 @@ public class FXMLPuzzleController implements Initializable {
         fichas[pos1] = aux;
         
         String s = "";
-        
-       /* for(int i = 0; i < fichas.length; i++) {
-            s += Integer.toString(fichas[i]) + " ";
-        }
-        
-        etiqueta.setText(s);*/
+      
     }
     
 }

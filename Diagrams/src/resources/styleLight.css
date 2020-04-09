@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-abr-2020, 9:54:40
+    Author     : 2jesu
+*/
+
+.chart-title{
+    -fx-font-size: 24pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: cornflowerblue;
+}
+
+.button {
+   -fx-font-weight: bold;
+   -fx-text-fill: cornflowerblue;
+}
+
+.default-color0.chart-bar{
+    -fx-bar-fill: cornflowerblue;
+}
+
+
+
