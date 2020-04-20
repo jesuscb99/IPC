@@ -168,7 +168,7 @@ public class FXMLDocumentController implements Initializable {
             AnchorPane root = (AnchorPane) miCargador.load();
             FXMLVistaController controlador = miCargador.<FXMLVistaController>getController();
           
-          
+          //aaaaaaa
             controlador.initP(p, this, action);
             
             Scene scene = new Scene(root, 600, 400);
